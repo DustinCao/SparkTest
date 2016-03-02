@@ -1,0 +1,1 @@
+$SPARK_HOME/bin/spark-submit --class com.infobird.sparkUDF.HbaseTest --jars /opt/cloudera/parcels/CDH/lib/spark/lib/postgresql-9.0-801.jdbc4.jar --executor-memory 1g --master spark://slave01.infobird.com:7077  target/SparkSqlTest-0.0.1-SNAPSHOT-jar-with-dependencies.jar
